@@ -1,0 +1,3 @@
+.DS_Store
+assets/v2/semantic/*
+!assets/v2/semantic/packaged/

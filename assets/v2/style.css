@@ -100,6 +100,8 @@ footer {
     font-weight: normal;
 }
 
+
+
 /* newsletter */
 .newsletter {
     margin: 4rem auto 3rem;
@@ -110,4 +112,15 @@ footer {
 .blocks {
     min-height: 220px;
 }
+
+/* resp */
+
+
+@media only screen and (max-width : 770px) {
+    .tagline {
+        font-size: 2rem;
+    }
+    .newsletter {
+        margin: 2rem auto 1rem;
+    }
 }

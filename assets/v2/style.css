@@ -95,19 +95,33 @@ footer {
     font-size: 62px;
     color: #04667E;
     margin-bottom: 0.3em;
+    margin-top: 4rem;
 }
 .tagline + strong {
     font-weight: normal;
 }
 
+
+
 /* newsletter */
 .newsletter {
     margin: 4rem auto 3rem;
-    width: 590px;
+    width: 100%;
 }
 
 /* blocks */
 .blocks {
     min-height: 220px;
 }
+
+/* resp */
+
+
+@media only screen and (max-width : 770px) {
+    .tagline {
+        font-size: 2rem;
+    }
+    .newsletter {
+        margin: 2rem auto 1rem;
+    }
 }
